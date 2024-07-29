@@ -1,8 +1,8 @@
 {
-  "name": "astro-cube-boilerplate",
+  "name": "celestial-chaos",
   "type": "module",
   "version": "0.0.1",
-  "author": "Frank Stallone <frank@stallone.dev>",
+  "author": "Fredrik Enges <fredrik@enges.org>",
   "description": "A simple Astro boilerplate with CUBE CSS and TailwindCSS",
   "scripts": {
     "dev": "astro dev",
@@ -12,11 +12,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.6.0",
-    "@astrojs/partytown": "^2.1.0",
-    "@astrojs/sitemap": "^3.1.4",
+    "@astrojs/check": "^0.8.3",
+    "@astrojs/partytown": "^2.1.1",
+    "@astrojs/sitemap": "^3.1.6",
     "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.8.2",
+    "astro": "^4.12.2",
     "slugify": "^1.6.6",
     "tailwindcss": "^3.4.1"
   },
