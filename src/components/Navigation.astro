@@ -1,0 +1,26 @@
+---
+import Logo from "../components/logo.astro";
+---
+
+<div id="main-navigation" class="wrapper">
+    <div class="cluster">
+        <Logo />
+        <ul class="cluster">
+            <li>Link</li>
+            <li>Link</li>
+            <li>Link</li>
+          </ul>          
+    </div>
+</div>
+
+<style lang="css">
+  
+#main-navigation {
+     --cluster-horizontal-alignment: space-between;
+     padding: var(--space-s-m) 0;
+    }
+ul li
+    {
+    list-style-type: none;
+    }
+</style>
